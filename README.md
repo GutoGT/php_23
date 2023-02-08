@@ -14,6 +14,8 @@
 7.2 - sudo service apache2 status (apache is runing)
 7.3 - sudo service apche2 start .
 7.4 - executar os passos 7.1 e 7.2 .
+
+gggggg
  ## para salvar no github
  1 - git add . (onde . é todos os arquivos ou especificar por nome ex.: git add index.php)
  2 - git commit -m "DESCREVER O QUE FOI FEITO"
@@ -22,7 +24,8 @@
 
 teste teste 1 . teste teste 2 .
 teste teste 3 . teste teste 4 .
-teste teste 5 . 
+teste teste 5 .  
+gggggg
 ## para o mege 
 1 - git checkout NOME_BRENCH
 2 - git pull (obter as atualizacoes)
@@ -45,4 +48,7 @@ teste teste 5 .
       4.1 - Com conflito :git add . e git commit -m "...."
       4.2 - Sem conflito: so executar o push
       5 - git push
+
+
+gggggggg      
           
