@@ -23,3 +23,26 @@
 teste teste 1 . teste teste 2 .
 teste teste 3 . teste teste 4 .
 teste teste 5 . 
+## para o mege 
+1 - git checkout NOME_BRENCH
+2 - git pull (obter as atualizacoes)
+3 - git merge NOME_BRENCH_DA_TRAZER_AS_MUDANCAS
+  EX:
+     estamos na brench *develop* e queremos levar para a master/main
+      1 - git checkout *master*
+      2 - git pull (master)
+      3 - git merge *develop*
+      4 - resolve conflitos se houver 
+      4.1 - Com conflito: git add . e git commit -m "...."
+      4.2 - Sem conflito: so executar o push
+      5 - git push
+
+      Estamos na Brench *master/main* e queremos levar as mudancas para a develop
+      1 - git checkout *develop*
+      2 - git pull (develop)
+      3 - git merge *master/main*
+      4 - resolve conflitos se houver 
+      4.1 - Com conflito :git add . e git commit -m "...."
+      4.2 - Sem conflito: so executar o push
+      5 - git push
+          
